@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+/*  Body  */
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 20px;
+}
+/* Fim do Body  */
+
+
+
+/* Containers  */
+.container {
+  width: 100%;
+  max-width: 600px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 30px 20px;
+  margin-top: 30px;
+}
+/* Fim Containers  */
+
+
+
+/*  Cabecalhos  */
+h1 {
+  font-weight: 700;
+  color: #444;
+  margin-bottom: 20px;
+  font-size: 2em;
+}
+
+h3 {
+  font-weight: 600;
+  color: #555;
+  margin-bottom: 15px;
+}
+/*  Fim Cabecalhos  */
+
+
+
+/*  Inputs  */
+input.form-control {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  transition: border-color 0.3s;
+}
+
+
+input.form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0,123,255,0.3);
+}
+/*  Fim Inputs  */
+
+
+
+/*  Botoes  */
+button.btn {
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+button.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Fim  Botoes  */
+
+
+
+/*  Listas  */
+ul#usersList {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0;
+}
+
+ul#usersList li {
+  background: #f1f1f1;
+  padding: 10px 15px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  font-weight: 500;
+}
+/*  Fim Listas  */
+
+
+
+/*  Links  */
+a {
+  text-decoration: none;
+  color: inherit;  /* herda a cor do elemento pai */
+  transition: color 0.0.1s;
+}
+
+a:hover {
+  color: #b3000000;  /* não muda de cor ao passar o mouse */
+}
+/*  Fim Links  */
+
+
+
+/* Formatacao das margens dos buttons  (Text Center,Margin)  */
+.text-center {
+  text-align: center;
+}
+
+.mt-2 { margin-top: 0.5rem; }
+.mt-3 { margin-top: 1rem; }
+.mt-4 { margin-top: 1.5rem; }
+.mt-5 { margin-top: 2rem; }
+
+/* Fim Formatacao das margens dos buttons  (Text Center,Margin)  */
+
+
+
+/* Formatacao dos buttons de AUTENTICACAO */
+.btn-lg {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+}
+
+/* espacamento do formulario*/
+.form-group {
+  margin-bottom: 15px;
+}
+
+
+/* Footer links */
+ul.list-inline {
+  margin-top: 20px;
+  padding-left: 0;
+}
+
+ul.list-inline li {
+  display: inline-block;
+  margin: 5px;
+}
+
+/* Fim Formatacao dos buttons de AUTENTICACAO */
+
+
+
+/*  Cores  dos botões de AUTENTICACAO */
+.btn-primary {
+  background-color: #4a90e2;
+  border-color: #e24a4a;
+}
+
+.btn-primary:hover {
+  background-color: #357abd;
+  border-color: #4a90e2;
+  cursor: pointer;
+
+}
+
+.btn-info {
+  background-color: #50c0e9;
+  border-color: #50c0e9;
+}
+
+.btn-info:hover {
+  background-color: #2aa8d8;
+  border-color: #2aa8d8;
+}
+
+.btn-danger {
+  background-color: #e94f4f;
+  border-color: #e94f4f;
+}
+
+.btn-danger:hover {
+  background-color: #d12d2d;
+  border-color: #d12d2d;
+}
+
+.btn-warning {
+  background-color: #f5a623;
+  border-color: #f5a623;
+}
+
+.btn-warning:hover {
+  background-color: #e38b00;
+  border-color: #e38b00;
+}
+
+.btn-outline-danger {
+  color: #e94f4f;
+  border-color: #e94f4f;
+}
+
+.btn-outline-danger:hover {
+  background-color: #e94f4f;
+  color: #fff;
+}
+/*  Fim Cores dos botões de AUTENTICACAO */
+
+
+
+/*  Responsividade  */
+@media (max-width: 768px) {
+  .container {
+    padding: 20px 15px;
+  }
+}
+/*  Fim Responsividade  */
